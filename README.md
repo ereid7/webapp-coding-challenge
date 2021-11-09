@@ -25,6 +25,7 @@ A simple web application which displays a list of products + their ingredients. 
 
 ### Serve Frontend
 - Navigate to `frontend`
+- Run `npm install -g @angular/cli` to install Angular CLI
 - Run `npm install` to install dependencies
 - Run `ng serve` to serve frontend
 - Navigate to `http://localhost:4200/` in a browser
