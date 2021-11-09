@@ -4,7 +4,7 @@ A simple web application which displays a list of products + their ingredients. 
 # Development Setup
 ### Install Machine Dependencies
 - PostgreSQL v14
-- Python 3.0
+- Python 3.7
 - npm
 
 ### Install Python Dependencies with pip
