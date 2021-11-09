@@ -1,0 +1,18 @@
+<mat-dialog-content>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Product Name</mat-label>
+    <input matInput [(ngModel)]="productName">
+  </mat-form-field>
+  <mat-label>Ingredient</mat-label>
+  <input class="ingredient-input" type="text" [(ngModel)]="ingredient">
+  <button mat-raised-button class="add-instructions-button" (click)="addIngredient()">Add</button>
+  <p>Ingredients:</p>
+  <hr/>
+  <p *ngIf="this.ingredientList.length == 0"><i>No ingredients. Add ingredients in the input above.</i></p>
+  <ul>
+    <li *ngFor="let ingredient of this.ingredientList">{{ingredient}}</li>
+  </ul>
+  <div class="dialog-footer">
+    <button mat-raised-button class="add-instructions-button" (click)="createProduct()">Create Product</button>
+  </div>
+</mat-dialog-content>

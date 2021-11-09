@@ -1,0 +1,8 @@
+
+<div class="product-list-container">
+  <p *ngIf="this.productService.productList.length == 0"><i>No existing Products. Create a product with the button above.</i></p>
+  <div *ngFor="let product of this.productService.productList">
+    <app-product-item [name]="product.name" [ingredients]="product.ingredients" [id]="product.product_id"></app-product-item>
+  <div>
+</div>
+ 

@@ -1,0 +1,20 @@
+
+.example-full-width {
+  width: 100%;
+}
+
+.add-instructions-input {
+  width: 70%;
+}
+
+.add-instructions-button {
+  margin-left: 350px;
+}
+
+.dialog-footer {
+  margin: 50px 10px 10px 10px;
+}
+
+.ingredient-input {
+  margin-left: 30px;
+}
